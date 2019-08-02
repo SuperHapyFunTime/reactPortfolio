@@ -35,6 +35,11 @@
     color: white;
 }
 
+.banner-text h2 {
+    font-weight: bold;
+    color: white;
+}
+
 .banner-text hr {
     border-top: 5px dotted white;
     width: 50%;
@@ -56,6 +61,21 @@
     color: white;
     font-size: 5em;
     padding: 8px;
+}
+
+.projects-grid{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.project-item{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card-actions{
+      text-align: center;
 
 }
 
